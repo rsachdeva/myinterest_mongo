@@ -1,0 +1,30 @@
+<% form_for @calculation do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name_your_calculation %><br />
+    <%= f.text_field :name_your_calculation %>
+  </p>
+  <p>
+    <%= f.label :amount %><br />
+    <%= f.text_field :amount %>
+  </p>
+  <p>
+    <%= f.text_field :term, :maxlength => 4 %>
+    <%= f.select :term_type, ['Days', 'Months', 'Years'] %>
+  </p>
+  <p>
+    <%= f.radio_button :apy_or_apr, 'apy' %>
+    <%= label :apy_or_apr, 'APY' %>
+    <%= f.radio_button :apy_or_apr, 'apr' %>
+    <%= label :apy_or_apr, 'APR' %>
+  </p>
+  <p>
+    <%= f.label :rate %><br />
+    <%= f.text_field :rate, :max_length => 2 %>
+  </p>
+  <p>
+    <%= f.label :compounding_times %><br />
+    <%= f.select :compounding_times, ['daily', 'monthly', 'semimonthly', 'annually'] %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>

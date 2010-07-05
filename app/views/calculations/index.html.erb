@@ -1,0 +1,28 @@
+<% title "Calculations" %>
+
+<table border = 1>
+  <tr>
+    <th>Name your calculation</th>
+    <th>Amount</th>
+    <th>Term</th>
+    <th>APY Or APR</th>
+    <th>Rate</th>
+    <th>Compounding Times</th>
+    <th>Action</th>
+  </tr>
+  <% for calculation in @calculations %>
+    <tr>
+      <td><%=h calculation.name_your_calculation %></td>
+      <td><%=h calculation.amount %></td>
+      <td><%=h calculation.term %>  <%=h calculation.term_type %></td>
+      <td><%=h calculation.apy_or_apr %></td>
+      <td><%=h calculation.rate %></td>
+      <td><%=h calculation.compounding_times %></td>
+      <td><%= link_to "Show", calculation %></td>
+      <td><%= link_to "Edit", edit_calculation_path(calculation) %></td>
+      <td><%= link_to "Destroy", calculation, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Calculation", new_calculation_path %></p>

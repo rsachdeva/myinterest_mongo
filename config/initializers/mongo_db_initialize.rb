@@ -1,0 +1,1 @@
+MongoMapper.database = "myinterest_mongo_#{RAILS_ENV}"

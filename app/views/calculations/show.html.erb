@@ -1,0 +1,17 @@
+<% title "Calculation" %>
+
+<p>
+  <strong>Your calculation:</strong>
+  <%=h @calculation.name_your_calculation %> |
+  <%=h @calculation.amount %> |
+  <%=h @calculation.term %>  <%=h @calculation.term_type %> | 
+  <%=h @calculation.apy_or_apr %> |
+  <%=h @calculation.rate %> |
+  <%=h @calculation.compounding_times %> |
+</p>
+
+<p>
+  <%= link_to "Edit", edit_calculation_path(@calculation) %> |
+  <%= link_to "Destroy", @calculation, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", calculations_path %>
+</p>
