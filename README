@@ -1,2 +1,22 @@
-Mongodb Document Database Web Version of MyInterest Income Calculator iPhone App in iTunes. Using Rails and MongoDB.
-See app at: http://itunes.apple.com/us/app/myinterest-income-calculator/id348856857?mt=8
+Mongodb Document Database Ruby on Rails Web Version of MyInterest Income Calculator iPhone App in iTunes.
+Download app at: http://itunes.apple.com/us/app/myinterest-income-calculator/id348856857?mt=8
+
+Calculator is something that you want to do in hand and MyInterest DRInnovations iPhone App provides that.
+This app is downloaded worldwide. Try Today on your iPhone and iPod Touch. Compatible with iPad too.
+Works with iOS4 (iPhone4)
+
+Work here is in progress, using Ruby on Rails/MongoDB/JavaScript and for sharing source code for demo/staging/educational purpose only.
+Thanks for your Interest in MyInterest!
+
+
+Completed Work:
+
+>> Initial Set up with Mongo, MongoMapper
+>> Calculation Model introduced with key UI and Model DB elements migrated from http://itunes.apple.com/us/app/myinterest-income-calculator/id348856857?mt=8
+
+
+
+Remaining Work:
+>> JavaScript controls for handling APY and APR modes
+>> Calculation on Data when submitted
+>> More Unit and Functional tests

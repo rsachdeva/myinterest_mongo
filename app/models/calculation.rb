@@ -24,4 +24,6 @@ class Calculation
   def should_validate_compounding_times
     apy_or_apr.eql?('apr')
   end
+
+  
 end
