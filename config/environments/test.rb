@@ -6,6 +6,43 @@
 # and recreated between test runs.  Don't rely on the data there!
 config.cache_classes = true
 
+# Gems required for test environment
+
+config.gem 'cucumber'
+
+config.gem 'cucumber-rails',
+  :lib => false
+
+config.gem 'ffaker'
+
+config.gem 'machinist'
+
+config.gem 'redgreen'
+
+config.gem 'rspec',
+  :lib => false,
+  :version => '>= 1.2.0'
+
+config.gem 'rspec-rails',
+  :lib => false,
+  :version => '>= 1.2.0'
+
+config.gem 'spork'
+
+config.gem 'thoughtbot-shoulda',
+  :lib => 'shoulda',
+  :source => "http://gems.github.com"
+
+config.gem 'webrat'
+
+config.gem 'selenium-client',
+  :lib => 'selenium'
+
+# for use with any_instance.stubs
+config.gem 'mocha'
+
+config.gem 'single_test'
+
 # Log error messages when you accidentally call methods on nil.
 config.whiny_nils = true
 

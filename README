@@ -13,10 +13,11 @@ Completed Work:
 
 >> Initial Set up with Mongo, MongoMapper
 >> Calculation Model introduced with key UI and Model DB elements migrated from http://itunes.apple.com/us/app/myinterest-income-calculator/id348856857?mt=8
-
+>> Rspec gems etc initial set up included for Unit and Controller Functional tests
 
 
 Remaining Work:
+>> Start writing a spec unit test
 >> JavaScript controls for handling APY and APR modes
 >> Calculation on Data when submitted
 >> More Unit and Functional tests
