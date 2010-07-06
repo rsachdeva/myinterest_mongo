@@ -14,6 +14,7 @@ Completed Work:
 >> Initial Set up with Mongo, MongoMapper
 >> Calculation Model introduced with key UI and Model DB elements migrated from http://itunes.apple.com/us/app/myinterest-income-calculator/id348856857?mt=8
 >> Rspec gems etc initial set up included for Unit and Controller Functional tests
+>> Initial Rspec test with Mongo and MongoMapper Calculation Model
 
 
 Remaining Work:
