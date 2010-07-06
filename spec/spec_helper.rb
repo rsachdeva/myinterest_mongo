@@ -17,10 +17,12 @@ Spec::Runner.configure do |config|
   # If you're not using ActiveRecord you should remove these
   # lines, delete config/database.yml and disable :active_record
   # in your config/boot.rb
-  config.use_transactional_fixtures = true
-  config.use_instantiated_fixtures  = false
-  config.fixture_path = RAILS_ROOT + '/spec/fixtures/'
-
+  #MSTARTS
+#  config.use_transactional_fixtures = true
+#  config.use_instantiated_fixtures  = false
+#  config.fixture_path = RAILS_ROOT + '/spec/fixtures/'
+  #MSTOPS
+  
   # == Fixtures
   #
   # You can declare fixtures for each example_group like this:
