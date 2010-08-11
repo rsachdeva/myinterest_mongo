@@ -18,7 +18,7 @@ Completed Work:
 
 
 Remaining Work:
->> Do Mongoid check Vs mongoMapper for Rails 3
+>> Do Mongoid check-since more Rails 3 compatible- Vs mongoMapper for Rails 3
 >> JavaScript(jQuery) controls for handling APY and APR modes
 >> Calculation on Data when submitted
 >> More Unit and Functional tests
